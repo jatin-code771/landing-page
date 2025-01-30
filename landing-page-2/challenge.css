@@ -1,0 +1,131 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  background-image: url(./assets/chaicohort.png);
+background-repeat: no-repeat;
+background-size: 100% 75%;
+/* background-position: center center; */
+
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  gap: 900px;
+  background-color: rgb(105, 98, 98);
+  padding: 10px;
+}
+
+
+.logo {
+  
+  margin-left: 70px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.logo img {
+  
+  border-radius: 50px;
+  height: 50px;
+}
+
+.menu{
+  display: flex;
+  gap: 70px;
+}
+.menu a {
+ 
+  text-decoration: none;
+  color: aliceblue;
+  
+}
+
+.menu a:hover {
+  transform: scale(1.2);
+  
+}
+
+/* Hero section styles */
+.hero {
+text-align: center;
+margin-top: 20px;
+margin-bottom: 50px;
+
+}
+
+.hero-content {
+  
+  display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: center;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(98, 202, 69);
+}
+
+.hero-content p {
+ color: white;
+}
+
+.hero-content img {
+ border: 1px solid rgb(98, 202, 69);
+ border-radius: 10px;
+}
+
+.enroll-button {
+ border-radius: 20px;
+ padding: 10px 20px;
+ background-color: rgb(98, 202, 69);
+ color: black;
+ border: 1px;
+}
+
+.enroll-button:hover {
+  box-shadow: 0px 0px 30px rgb(98, 202, 69) ;
+  cursor: pointer;
+  
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.2) rotate(10deg);
+}
+
+
+
+/* Highlights section styles */
+.highlights {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  background-color: rgb(70, 69, 69);
+  padding:20px 40px ;
+}
+
+.highlight-card {
+  border: 1px solid black;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 20px;
+  width: 300px;
+}
+
+.highlight-card h3 {
+  color: rgb(98, 202, 69);
+}
+
+.highlight-card p {
+  color:rgb(181, 171, 171) ;
+}
